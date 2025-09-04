@@ -57,3 +57,16 @@ margin-top: 10px;
     margin-right: auto;
     width: 320px;
 }
+
+p::first-letter {
+    font-weight: bold;
+}
+
+h1 + p{
+    text-indent: 0px;
+}
+
+p::first-line {
+    font-variant: small-caps;
+}
+
