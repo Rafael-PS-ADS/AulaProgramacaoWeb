@@ -96,6 +96,65 @@ label[for=azul]::after{
     border: 6px solid rgba(0,0,0,0.1);
 }
 
+.detalhes{
+    padding: 2em 0;
+}
+
+.detalhes h2{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.detalhes p{
+    margin: 1em 0;
+    font-size: 1em;
+    line-height: 1.5;
+    max-width: 36em;
+}
+
+table{
+    border-spacing: 0.2em;
+    border-collapse: separate;
+}
+
+thead{
+    background-color: #999;
+}
+
+thead th{
+    font-weight: bold;
+    text-align: center;
+    padding: 0.3em 1em;
+}
+
+td {
+    padding: 0.3em;
+}
+
+tr:nth-child(2n){
+    background-color: #CCC;
+}
+
+td:first-child{
+    font-style: italic;
+}
+
+.produto-back{
+    background-color: #F2F2F2;
+    margin-top: 1em;
+    border-top: 2px solid #CCC;
+}
+
+.cores label img{
+    border: 2px solid #CCC;
+}
+
+@media (min-width:500px){
+    .detalhes{
+        font-size: 1.2em;
+    }
+}
+
 @media(min-width:630px){
     .produto{
         position:relative;
@@ -123,5 +182,13 @@ label[for=azul]::after{
         position:static;
         float:left;
         margin-right: 10px;
+    }
+
+    fieldset{
+        display: inline-block;
+        vertical-align: top;
+        margin: 1em 0;
+        min-width: 240px;
+        width: 45%;
     }
 }
