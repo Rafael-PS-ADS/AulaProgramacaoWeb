@@ -54,7 +54,9 @@
 
                     <fieldset class="tamanhos">
                         <legend>Escolha o tamanho:</legend>
-                        <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
+                        <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho"
+                        oninput="mostraTamanho.value=value" onchange="mostraTamanho.value=value">
+                        <input type="text" id="mostraTamanho" value="42" disabled>
                     </fieldset>
 
                     <button class="comprar">Comprar</button>   

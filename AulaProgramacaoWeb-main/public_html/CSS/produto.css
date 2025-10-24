@@ -192,3 +192,15 @@ td:first-child{
         width: 45%;
     }
 }
+
+input[type=text] {
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    border: 3px solid #666;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #333;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
